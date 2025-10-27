@@ -1,0 +1,99 @@
+# ===========================================
+# 🧠 Python & Flask Ignore Rules
+# ===========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Flask instance folder (used for uploads, etc.)
+instance/
+
+# Local settings and environment files
+*.env
+.env.*
+.env.local
+
+# Cache and logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+
+# VS Code and other IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ===========================================
+# 🧱 Frontend / Templates / Static Assets
+# ===========================================
+*.map
+node_modules/
+package-lock.json
+npm-debug.log
+
+# ===========================================
+# 🔑 API Keys / Config Files (important!)
+# ===========================================
+*.json
+*.ini
+*.cfg
+*config.py
+secret*.py
+credentials*.py
+api_keys.py
+
+# ===========================================
+# 🚀 Deployment Artifacts
+# ===========================================
+dist/
+build/
+*.egg-info/
+*.spec
+
+# ===========================================
+# 🧪 Jupyter or Experiment Files
+# ===========================================
+*.ipynb
+.ipynb_checkpoints/
+
+# ===========================================
+# 📦 Pickle or Model Files
+# ===========================================
+*.pkl
+*.joblib
+
+# ===========================================
+# 🧰 Miscellaneous
+# ===========================================
+*.bak
+*.tmp
+*.swp
+*.old

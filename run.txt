@@ -1,0 +1,14 @@
+step 1    :   pip install -r requirements.txt
+
+step 2    :   python app.py    or flask run
+
+
+
+
+
+api endpoints:
+walmart:
+https://rapidapi.com/apimaker/api/walmart2/playground/apiendpoint_00eb0b73-beda-4645-9f29-fd1873e39ab8
+
+amazon:
+https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data/playground/endpoint_369599f7-6147-4cb9-9417-09dcd429936d
